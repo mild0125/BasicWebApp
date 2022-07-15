@@ -25,8 +25,8 @@ public class QueryProcessor {
                 String[] strings = query.split(" ");
                 int num1 = Integer.parseInt(strings[2]);
                 int num2 = Integer.parseInt(strings[4]);
-                String answer = num1 + num2 + "";
-                return answer;
+
+                return num1+num2+"";
             }
             return "";
         }
